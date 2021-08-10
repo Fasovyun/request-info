@@ -35,10 +35,11 @@ const resolveInfo = (info) => {
   return result
 }
 
-const url = 'https://www.ip-lookup.org/location/103.227.254.100'
+const url = 'https://www.ip-lookup.org/location/'
 
-async function run(){
-  const {data} = await axios.get(url, {
+async function run(ip){
+  if (!ip) throw new Error('please provide an ip!')
+  const {data} = await axios.get(`${url}${ip}`, {
     headers: {'User-Agent': randomUA()}
   })
   const $ = cheerio.load(data)
@@ -49,5 +50,4 @@ async function run(){
   }
   return result
 }
-run()
 module.exports = run
