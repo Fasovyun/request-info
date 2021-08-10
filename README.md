@@ -1,15 +1,17 @@
-# @mr687/request-info [![NPM version](https://img.shields.io/npm/v/request-info.svg?style=flat)](https://www.npmjs.com/package/@mr687/request-info) [![NPM monthly downloads](https://img.shields.io/npm/dm/request-info.svg?style=flat)](https://npmjs.org/package/@mr687/request-info) [![NPM total downloads](https://img.shields.io/npm/dt/request-info.svg?style=flat)](https://npmjs.org/package/@mr687/request-info)
+# @mr687/reqeust-info [![NPM version](https://img.shields.io/npm/v/request-info.svg?style=flat)](https://www.npmjs.com/package/@mr687/reqeust-info) [![NPM monthly downloads](https://img.shields.io/npm/dm/request-info.svg?style=flat)](https://npmjs.org/package/@mr687/reqeust-info) [![NPM total downloads](https://img.shields.io/npm/dt/request-info.svg?style=flat)](https://npmjs.org/package/@mr687/reqeust-info)
 
 > get user info from request IP
 
+actually, if you curious about my miss-spelling package name, that is intentionally the name!
+
 ## install
 ```sh
-$ npm install @mr687/request-info
+$ npm install @mr687/reqeust-info
 ```
 
 ## usage
 ```js
-const requestInfo = require('@mr687/request-info')
+const requestInfo = require('@mr687/reqeust-info')
 
 async function run() {
   const ip = '8.8.8.8'

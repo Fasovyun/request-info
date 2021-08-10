@@ -1,6 +1,6 @@
 {
   "name": "@mr687/reqeust-info",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get user info from request headers",
   "main": "index.js",
   "scripts": {
